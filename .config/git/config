@@ -1,5 +1,5 @@
 [user]
-	email = baptiste.arnaud95@gmail.com 
+	email = baptiste.arnaud95@gmail.com
 	name = Baptiste Arnaud
 	signingkey = /Users/baptistearno/.ssh/id_rsa.pub
 [filter "lfs"]

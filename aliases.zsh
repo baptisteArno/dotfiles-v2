@@ -23,7 +23,7 @@ alias gstap="git stash pop"
 alias gco="git checkout"
 alias gbd="git branch -D"
 alias gs="git status"
-alias gl="git log --graph --decorate --oneline --all"
+alias gl="git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%Creset' --abbrev-commit --date=relative"
 alias gd="git diff"
 
 gb() { git branch $1 && gco $1 }
@@ -50,6 +50,8 @@ alias nrs="nr start"
 alias nrb="nr build"
 alias nrd="nr dev"
 alias nrdm="nr dev:mocking"
+
+alias pnpmu="pnpm up --latest -r"
 
 alias vim="nvim"
 alias lg="lazygit --use-config-file=\"$XDG_CONFIG_HOME/lazygit/config.yml\""
