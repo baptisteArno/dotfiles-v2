@@ -1,0 +1,77 @@
+{
+  "debug.console.fontSize": 15,
+  "editor.accessibilitySupport": "off",
+  "editor.fontFamily": "JetBrainsMono Nerd Font",
+  "workbench.colorTheme": "Catppuccin Frappé",
+  "editor.fontSize": 15,
+  "terminal.integrated.fontSize": 15,
+  "editor.inlineSuggest.enabled": true,
+  "editor.lineNumbers": "relative",
+  "editor.smoothScrolling": true,
+  "editor.tabSize": 2,
+  "files.exclude": {
+    "**/.git": false
+  },
+  "git.enableSmartCommit": true,
+  "gitlens.graph.allowMultiple": false,
+  "gitlens.graph.layout": "editor",
+  "gitlens.graph.minimap.enabled": false,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "security.workspace.trust.untrustedFiles": "open",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+
+  // Vim
+  "vim.insertModeKeyBindings": [
+    {
+      "before": ["j", "k"],
+      "after": ["<Esc>"]
+    }
+  ],
+  "vim.leader": " ",
+
+  "typescript.tsserver.log": "off",
+
+  "git.replaceTagsWhenPull": true,
+  "git.confirmSync": false,
+
+  // Formatting
+  "editor.formatOnSave": true,
+  "biome.enabled": false,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[javascript]": {
+    "editor.defaultFormatter": "biomejs.biome"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "biomejs.biome"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "biomejs.biome"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "biomejs.biome"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "biomejs.biome"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "biomejs.biome"
+  },
+  "[mdx]": {
+    "editor.defaultFormatter": "unifiedjs.vscode-mdx"
+  },
+
+  "files.associations": {
+    "*.svg": "html"
+  },
+  "gitlens.virtualRepositories.enabled": false,
+  "git.branchProtectionPrompt": "alwaysCommit",
+  "editor.tokenColorCustomizations": {
+    "textMateRules": []
+  },
+  "typescript.tsserver.experimental.enableProjectDiagnostics": true,
+  "tailwindCSS.experimental.classRegex": [
+    ["cva\\(([^)]*)\\)", "[\"'`]([^\"'`]*).*?[\"'`]"],
+    ["cx\\(([^)]*)\\)", "(?:'|\"|`)([^']*)(?:'|\"|`)"]
+  ],
+  "extensions.ignoreRecommendations": true
+}
