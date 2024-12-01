@@ -164,11 +164,15 @@ if.app-id = 'company.thebrowser.Browser'
 run = 'move-node-to-workspace 1'
 
 [[on-window-detected]]
-if.app-id = 'dev.zed.Zed-Preview'
+if.app-id = 'com.microsoft.VSCode'
 run = 'move-node-to-workspace 2'
 
 [[on-window-detected]]
-if.app-id = 'net.kovidgoyal.kitty'
+if.app-id = 'io.httpie.desktop'
+run = 'move-node-to-workspace 2'
+
+[[on-window-detected]]
+if.app-id = 'notion.id'
 run = 'move-node-to-workspace 3'
 
 [[on-window-detected]]
@@ -182,7 +186,3 @@ run = 'move-node-to-workspace 5'
 [[on-window-detected]]
 if.app-id = 'org.chromium.Chromium'
 run = 'move-node-to-workspace 6'
-
-[[on-window-detected]]
-if.app-id = 'io.httpie.desktop'
-run = 'move-node-to-workspace 2'

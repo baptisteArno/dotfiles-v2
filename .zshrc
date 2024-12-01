@@ -1,4 +1,4 @@
-source $HOME/load_zinit.zsh
+source $HOMEBREW_PREFIX/opt/zinit/zinit.zsh
 zinit load zsh-users/zsh-syntax-highlighting
 zinit load zsh-users/zsh-autosuggestions
 zinit load MichaelAquilina/zsh-you-should-use
