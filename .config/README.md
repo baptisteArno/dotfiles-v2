@@ -4,4 +4,5 @@ Followed [this tuto](https://www.atlassian.com/fr/git/tutorials/dotfiles)
 
 ```sh
 bat cache --build
+proto setup
 ```

@@ -101,6 +101,7 @@ alt-comma = 'layout accordion horizontal vertical'
 alt-j = 'focus down'
 alt-k = 'focus up'
 alt-l = 'focus right'
+alt-h = 'focus left'
 
 # See: https://nikitabobko.github.io/AeroSpace/commands#move
 alt-shift-h = 'move left'
@@ -122,7 +123,6 @@ alt-6 = 'workspace 6'
 alt-7 = 'workspace 7'
 alt-8 = 'workspace 8'
 alt-9 = 'workspace 9'
-alt-h = 'workspace h'
 
 # See: https://nikitabobko.github.io/AeroSpace/commands#move-node-to-workspace
 alt-ctrl-1 = 'move-node-to-workspace 1'
@@ -134,7 +134,6 @@ alt-ctrl-6 = 'move-node-to-workspace 6'
 alt-ctrl-7 = 'move-node-to-workspace 7'
 alt-ctrl-8 = 'move-node-to-workspace 8'
 alt-ctrl-9 = 'move-node-to-workspace 9'
-alt-ctrl-h = 'move-node-to-workspace h'
 
 # See: https://nikitabobko.github.io/AeroSpace/commands#workspace-back-and-forth
 alt-tab = 'workspace-back-and-forth'
